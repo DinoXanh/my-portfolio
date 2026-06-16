@@ -19,3 +19,12 @@ entry.target.classList.add('show');
 document
 .querySelectorAll('.hidden')
 .forEach(el=>observer.observe(el));
+
+const btn =
+document.getElementById("themeBtn");
+
+btn.addEventListener("click",()=>{
+
+document.body.classList.toggle("dark");
+
+});
