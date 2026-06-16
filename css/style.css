@@ -37,3 +37,14 @@ nav{
     flex-wrap:wrap;
     justify-content:center;
 }
+
+.hidden{
+    opacity:0;
+    transform:translateY(50px);
+    transition:all .6s;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
